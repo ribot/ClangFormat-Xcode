@@ -1,22 +1,22 @@
-# ClangFormat-Xcode
+# ClangFormat-Xcode (with [ribot](http://ribot.co.uk) additions)
 
 An Xcode plug-in to format your code using Clang's format tools, by [@travisjeffery](https://twitter.com/travisjeffery).
 
 With [clang-format](http://clang.llvm.org/docs/ClangFormat.html) you can use Clang to format your code to styles such as LLVM, Google, Chromium, Mozilla, WebKit, or your own configuration.
 
+## Installation:
+
+1. Clone this repo: `git clone https://github.com/ribot/ClangFormat-Xcode.git --depth 1`
+2. Open `ClangFormat.xcodeproj`: `open ClangFormat-Xcode/ClangFormat.xcodeproj`
+3. Run the project
+4. Restart XCode
+5. Turn on formatting by file: _*Edit* menu -> *Clang Format* -> Tick *File*_
+
+## Usage:
+
 ![usage](https://raw.github.com/travisjeffery/ClangFormat-Xcode/master/README/usage.png)
 
 ![demo](https://raw.github.com/travisjeffery/ClangFormat-Xcode/master/README/clangformat-xcode-demo.gif)
-
-## Installation:
-
-Install via [Alcatraz](https://github.com/mneorr/Alcatraz).
-
-OR
-
-Clone this repo, build and run ClangFormat, restart Xcode.
-
-## Usage:
 
 ### Format on save
 
